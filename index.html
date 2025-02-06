@@ -3,75 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tostadas Gigantes la Morena - Menú</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Tostadas Gigantes La Morena</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="index.js">
 </head>
 <body>
-    <div class="menu-container">
-        <header class="menu-header">
-            <h1>Tostadas Gigantes la Morena</h1>
-            <div class="decorative-line"></div>
-            <p class="subtitle">Estilo Tuxpan</p>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-icons">
+                <i class="icon">👨‍🍳</i>
+                <i class="icon">🍽️</i>
+            </div>
+            <h1>Tostadas Gigantes La Morena</h1>
+            <h2>Estilo Tuxpan</h2>
+            <div class="header-line"></div>
         </header>
 
-        <section class="menu-section">
-            <h2>Tostadas</h2>
-            <div class="menu-items">
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Tostada Mixta</h3>
-                        <span class="price">$45.00</span>
+        <!-- Menu Sections -->
+        <div class="menu-sections">
+            <!-- Tostadas Section -->
+            <section class="menu-section">
+                <h3>🍽️ Tostadas</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">Sencilla</span>
+                            <p class="item-description">Tostada básica con frijoles, lechuga y queso</p>
+                        </div>
+                        <span class="item-price">$35.00</span>
                     </div>
-                    <p class="description">Frijoles refritos, pollo, carne deshebrada, lechuga, tomate, crema, queso y aguacate</p>
-                    <div class="decorative-dots"></div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">Lomo</span>
+                            <p class="item-description">Deliciosa tostada con lomo de cerdo sazonado</p>
+                        </div>
+                        <span class="item-price">$75.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">Deshebrada</span>
+                            <p class="item-description">Carne de res deshebrada con verduras</p>
+                        </div>
+                        <span class="item-price">$75.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">Pata</span>
+                            <p class="item-description">Tradicional tostada de pata de res en vinagre</p>
+                        </div>
+                        <span class="item-price">$75.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">Cuero</span>
+                            <p class="item-description">Cuero de cerdo preparado en vinagre</p>
+                        </div>
+                        <span class="item-price">$75.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">Trompa</span>
+                            <p class="item-description">Trompa de cerdo preparada al estilo Tuxpan</p>
+                        </div>
+                        <span class="item-price">$75.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">Mixta</span>
+                            <p class="item-description">Combinación de dos carnes a elegir</p>
+                        </div>
+                        <span class="item-price">$100.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">Campechana</span>
+                            <p class="item-description">Combinación especial de tres carnes</p>
+                        </div>
+                        <span class="item-price">$120.00</span>
+                    </div>
                 </div>
+            </section>
 
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Tostada de Pollo</h3>
-                        <span class="price">$40.00</span>
+            <!-- Sopes Section -->
+            <section class="menu-section">
+                <h3>🍽️ Sopes</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">1 Solo</span>
+                            <p class="item-description">Sope individual con frijoles, carne y verdura</p>
+                        </div>
+                        <span class="item-price">$30.00</span>
                     </div>
-                    <p class="description">Frijoles refritos, pollo deshebrado, lechuga, tomate, crema, queso y aguacate</p>
-                    <div class="decorative-dots"></div>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">3 Sopes</span>
+                            <p class="item-description">Paquete de tres sopes con frijoles, carne y verdura</p>
+                        </div>
+                        <span class="item-price">$80.00</span>
+                    </div>
                 </div>
+            </section>
 
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Tostada de Pierna</h3>
-                        <span class="price">$45.00</span>
+            <!-- Tacos Dorados Section -->
+            <section class="menu-section">
+                <h3>🌮 Tacos Dorados</h3>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">Taco Sencillo</span>
+                            <p class="item-description">Taco dorado de papa con lechuga y queso</p>
+                        </div>
+                        <span class="item-price">$15.00</span>
                     </div>
-                    <p class="description">Frijoles refritos, pierna adobada, lechuga, tomate, crema, queso y aguacate</p>
-                    <div class="decorative-dots"></div>
-                </div>
-            </div>
-        </section>
-
-        <section class="menu-section">
-            <h2>Especialidades</h2>
-            <div class="menu-items">
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Sopes Gordos</h3>
-                        <span class="price">$35.00</span>
+                    <div class="menu-item">
+                        <div class="item-info">
+                            <span class="item-name">Taco con Carne</span>
+                            <p class="item-description">Taco dorado con carne, lechuga y queso</p>
+                        </div>
+                        <span class="item-price">$25.00</span>
                     </div>
-                    <p class="description">Base gruesa de maíz, frijoles refritos, carne a elegir, lechuga, tomate, crema y queso</p>
-                    <div class="decorative-dots"></div>
                 </div>
-
-                <div class="menu-item">
-                    <div class="item-header">
-                        <h3>Tacos Dorados de Papa</h3>
-                        <span class="price">$15.00 c/u</span>
-                    </div>
-                    <p class="description">Tortilla dorada rellena de papa sazonada, lechuga, tomate, crema y queso</p>
-                    <div class="decorative-dots"></div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
